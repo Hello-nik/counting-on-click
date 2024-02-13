@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    font-size: 1rem;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    font-size: 25px;
+}
+
+.container{
+    margin-top: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+.grid-container{
+    /* width: 100%;
+    height: 100%; */
+    display: grid;
+    grid-template-rows: repeat(10,8%);
+    grid-auto-columns: 10%;
+    grid-auto-flow: column;
+}
+
+.child{
+    
+    border: 1px solid black;
+}
+
+h1{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
